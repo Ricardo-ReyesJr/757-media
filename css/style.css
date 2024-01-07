@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* prefered dark */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #adaaaa;
+        background: #272727;
+    }
+    .announcement {
+        color: #e3ff00;
+    }
+}
+/* prefered light */
+@media (prefers-color-scheme: light) {
+    body {
+        color: #e3ff00;
+        background: #bd00ff;
+    }
+    .announcement {
+        color: #272727;
+    }
+}
